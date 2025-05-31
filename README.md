@@ -18,6 +18,9 @@ A qualquer momento é possível trocar os blocos para frutas, dados, símbolos e
 4 = cristais
 5 = símbolos
 ``` 
+
+Veja o vídeo:
+
 [![Veja o vídeo](https://img.youtube.com/vi/Tox1kAtp-Fc/maxresdefault.jpg)](https://youtu.be/Tox1kAtp-Fc)
 
 O jogo está limitado a apenas um background e sem estrelas ao fundo.
