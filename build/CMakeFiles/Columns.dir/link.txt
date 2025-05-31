@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/Columns.dir/link.d CMakeFiles/Columns.dir/src/main.cpp.o -o Columns   -L/home/gutierre69/c-language/shapes-and-columns/raylib/lib  -Wl,-rpath,/home/gutierre69/c-language/shapes-and-columns/raylib/lib -lraylib -lm -ldl -lpthread -lGL -lX11

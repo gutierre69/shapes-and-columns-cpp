@@ -1,0 +1,3 @@
+/home/gutierre69/c-language/shapes-and-columns/build/CMakeFiles/Columns.dir
+/home/gutierre69/c-language/shapes-and-columns/build/CMakeFiles/edit_cache.dir
+/home/gutierre69/c-language/shapes-and-columns/build/CMakeFiles/rebuild_cache.dir

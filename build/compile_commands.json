@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/gutierre69/c-language/shapes-and-columns/build",
+  "command": "/usr/bin/c++  -I/home/gutierre69/c-language/shapes-and-columns/raylib/include -g -std=gnu++17 -o CMakeFiles/Columns.dir/src/main.cpp.o -c /home/gutierre69/c-language/shapes-and-columns/src/main.cpp",
+  "file": "/home/gutierre69/c-language/shapes-and-columns/src/main.cpp",
+  "output": "CMakeFiles/Columns.dir/src/main.cpp.o"
+}
+]
