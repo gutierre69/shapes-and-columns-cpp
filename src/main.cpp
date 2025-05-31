@@ -591,12 +591,15 @@ int main(void)
     UnloadTexture(background);
     UnloadTexture(blocks);
     UnloadTexture(explode);
+    UnloadTexture(gameoverLabel);
 
     UnloadSound(popBlock);
     UnloadSound(collisonBlock);
     UnloadSound(changeBlock);
     UnloadSound(musicGameOver);
+
     UnloadMusicStream(music);
+    UnloadMusicStream(musicIntro);
 
     CloseAudioDevice();
     CloseWindow();
