@@ -7,6 +7,7 @@ Os gráficos são originais, as músicas e sons são originais.
 Utilizo a bibliotéca Raylib(https://www.raylib.com/)
 
 Na "tela inicial" é possível escolher a dificuldade comas as setas esquerda e direita (4 a 6).
+
 Também é possível escolher onde o chão começa, pra dificultar um pouco mais (0 a 12).
 
 A qualquer momento é possível trocar os blocos para frutas, dados, símbolos e cristais, usando as teclas do 1 ao 5.
