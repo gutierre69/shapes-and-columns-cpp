@@ -444,21 +444,21 @@ int main(void)
 
     InitAudioDevice();
 
-    background = LoadTexture("../resources/gfx/background.png");
-    blocks = LoadTexture("../resources/gfx/sprites/blocks.png");
-    explode = LoadTexture("../resources/gfx/sprites/explode.png");
+    background = LoadTexture("resources/gfx/background.png");
+    blocks = LoadTexture("resources/gfx/sprites/blocks.png");
+    explode = LoadTexture("resources/gfx/sprites/explode.png");
 
-    Texture gameoverLabel = LoadTexture("../resources/gfx/game-over.png");
+    Texture gameoverLabel = LoadTexture("resources/gfx/game-over.png");
 
 
-    popBlock = LoadSound("../resources/sfx/09.mp3");
-    collisonBlock = LoadSound("../resources/sfx/11.mp3");
-    changeBlock = LoadSound("../resources/sfx/14.mp3");
-    upLevel = LoadSound("../resources/sfx/12.mp3");
+    popBlock = LoadSound("resources/sfx/09.mp3");
+    collisonBlock = LoadSound("resources/sfx/11.mp3");
+    changeBlock = LoadSound("resources/sfx/14.mp3");
+    upLevel = LoadSound("resources/sfx/12.mp3");
 
-    music = LoadMusicStream("../resources/music/01.mp3");
-    musicIntro = LoadMusicStream("../resources/music/intro.mp3");
-    musicGameOver = LoadSound("../resources/music/game-over.mp3");
+    music = LoadMusicStream("resources/music/01.mp3");
+    musicIntro = LoadMusicStream("resources/music/intro.mp3");
+    musicGameOver = LoadSound("resources/music/game-over.mp3");
 
     RenderTexture pixelartRenderTexture = LoadRenderTexture(screenWidth, screenHeight);
 
@@ -556,11 +556,11 @@ int main(void)
                 intervalToRefreshTable -= 0.E1f;
             }
 
-            if(IsKeyPressed(KEY_ONE)) blocks = LoadTexture("../resources/gfx/sprites/blocks.png");
-            if(IsKeyPressed(KEY_TWO)) blocks = LoadTexture("../resources/gfx/sprites/dices.png");
-            if(IsKeyPressed(KEY_THREE)) blocks = LoadTexture("../resources/gfx/sprites/fruits.png");
-            if(IsKeyPressed(KEY_FOUR)) blocks = LoadTexture("../resources/gfx/sprites/gems.png");
-            if(IsKeyPressed(KEY_FIVE)) blocks = LoadTexture("../resources/gfx/sprites/shapes.png");
+            if(IsKeyPressed(KEY_ONE)) blocks = LoadTexture("resources/gfx/sprites/blocks.png");
+            if(IsKeyPressed(KEY_TWO)) blocks = LoadTexture("resources/gfx/sprites/dices.png");
+            if(IsKeyPressed(KEY_THREE)) blocks = LoadTexture("resources/gfx/sprites/fruits.png");
+            if(IsKeyPressed(KEY_FOUR)) blocks = LoadTexture("resources/gfx/sprites/gems.png");
+            if(IsKeyPressed(KEY_FIVE)) blocks = LoadTexture("resources/gfx/sprites/shapes.png");
 
 
             EndTextureMode();

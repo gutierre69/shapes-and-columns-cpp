@@ -4,7 +4,7 @@ Simples e direto!
 
 Os gráficos são originais, as músicas e sons são originais.
 
-Utilizo a bibliotéca Raylib(https://www.raylib.com/)
+Utilizo a biblioteca Raylib(https://www.raylib.com/)
 
 Na "tela inicial" é possível escolher a dificuldade comas as setas esquerda e direita (4 a 6).
 
